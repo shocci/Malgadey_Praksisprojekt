@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.14)  14 OCT 2025 15:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.14)  14 OCT 2025 16:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,30 +766,106 @@ Package pdftex.def Info: images/THlogoheader.pdf  used on input line 10.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.51 \newpage
+l.52 \newpage
               [1
 
 
-] (chapter/abstract.tex
+] (chapter/abstract.tex)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.7 \newpage
-             [2
+l.55 \newpage
+              [2
 
 
-])
+] (chapter/motivation.tex
+chapter 1.
+) (chapter/zielsetzung.tex
 
 [3
 
 
-] (chapter/einleitung.tex
-chapter 1.
-)
+]
+chapter 2.
+) (chapter/forschungsfragen.tex
+Overfull \hbox (9.3008pt too wide) in paragraph at lines 4--1
+\OT1/cmr/m/n/10.95 Ziel des Pro-jekts ist die ex-pe-ri-men-tel-le Un-ter-su-chung und Op-ti-mie-rung von Brimsupport-
+ []
+
+
 
 [4
+
+
+]
+chapter 3.
+
+Overfull \hbox (15.74911pt too wide) in paragraph at lines 6--7
+[]\OT1/cmr/m/n/10.95 Welche Rol-le spielt die Druckbett-Temperatur in Kom-bi-na-ti-on mit Brim-Parametern
+ []
+
+) (chapter/methodik.tex
+
+[5
+
+
+]
+chapter 4.
+
+Overfull \hbox (10.14093pt too wide) in paragraph at lines 5--6
+\OT1/cmr/m/n/10.95 FDM-Prozess, Haft-me-cha-nis-men (Adh[]asion, Rei-bung), Ma-te-ri-al-ver-hal-ten (PLA, PETG),
+ []
+
+) (chapter/relevanz.tex
+
+[6
+
+
+]
+chapter 5.
+) (chapter/zeitplan.tex
+
+[7
+
+
+]
+chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+[]|\OT1/cmr/m/n/10.95 Druckreihen, Do-ku-men-ta-ti-on, Qua-
+ []
+
+) (chapter/ressourcen.tex
+
+[8
+
+
+]
+chapter 7.
+) (chapter/risiken.tex
+Overfull \hbox (23.82713pt too wide) in paragraph at lines 4--1
+\OT1/cmr/m/n/10.95 Einsteiger-FDM-Drucker, Fi-la-ment (PLA/PETG), Mess-mit-tel (Mess-schie-ber, K[]uchenwaage
+ []
+
+
+
+[9
+
+
+]
+chapter 8.
+) (chapter/artefakte.tex
+
+[10
+
+
+]
+chapter 9.
+)
+
+[11
 
 
 ]
@@ -801,7 +877,7 @@ chapter 1.
 
 
 
-[5
+[12
 
 
 
@@ -811,12 +887,16 @@ chapter 1.
 
 
 
-[6
+[13
 
 
-] (main.bbl)
+] (main.bbl
 
-[7
+Package natbib Warning: Empty `thebibliography' environment on input line 15.
+
+)
+
+[14
 
 
 ])
@@ -824,7 +904,7 @@ chapter 1.
 
  (chapter/eid.tex)
 
-[8
+[15
 
 
 
@@ -837,17 +917,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28394 strings out of 468081
- 559456 string characters out of 5425788
- 1191382 words of memory out of 5000000
- 56574 multiletter control sequences out of 15000+600000
- 634954 words of font info for 65 fonts, out of 8000000 for 9000
+ 28519 strings out of 468081
+ 562734 string characters out of 5425788
+ 1194382 words of memory out of 5000000
+ 56652 multiletter control sequences out of 15000+600000
+ 635596 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,117p,11275b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (10 pages, 133937 bytes).
+ 108i,10n,117p,11275b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ninom\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (17 pages, 167519 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 19 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 237 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 154 words of extra memory for PDF output out of 10000 (max. 10000000)
 
