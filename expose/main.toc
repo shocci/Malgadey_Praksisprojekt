@@ -1,0 +1,6 @@
+\babel@toc {ngerman}{}\relax 
+\contentsline {chapter}{\numberline {1}Einleitung}{4}{chapter.1}%
+\contentsline {chapter}{Abbildungsverzeichnis}{5}{chapter*.5}%
+\contentsline {chapter}{Tabellenverzeichnis}{6}{chapter*.6}%
+\contentsline {chapter}{Literaturverzeichnis}{7}{chapter*.7}%
+\providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

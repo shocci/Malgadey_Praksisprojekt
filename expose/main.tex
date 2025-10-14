@@ -1,0 +1,61 @@
+%\documentclass[12pt]{article}
+\documentclass[BCOR=12mm,DIV=11,titlepage,a4paper,oneside]{scrbook}
+
+\usepackage{scrhack}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc} % statt utf8x
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+% todonotes: Marginbreite fixen
+\setlength{\marginparwidth}{2cm}
+\usepackage[colorinlistoftodos]{todonotes}
+
+% caption + subcaption
+\usepackage{caption}
+\captionsetup{compatibility=false}
+\usepackage{subcaption}
+
+\usepackage[authoryear,round]{natbib}
+
+% Mittels [H] können Bilder genau an einer Stelle positioniert werden
+\usepackage{float}
+
+\usepackage[breaklinks]{hyperref}
+
+% bewirkt, dass Hyperlinks in der PDF nicht umrandet oder farbig sind
+\hypersetup{colorlinks=false}
+
+% package for colored text
+\usepackage{color} % black,white,green,red,blue,yellow,cyan,magenta
+
+% package for colored tables
+\usepackage{colortbl}
+
+% Paket zur Erzeugung von Anführungszeichen durch \enquote{Text}
+\usepackage[babel,german=quotes]{csquotes}
+
+% Verhindern, dass eine neue Seite für ein einzelnes Wort/Zeile verwendet wird
+\clubpenalty = 10000 % schliesst Schusterjungen aus 
+\widowpenalty = 10000 % schliesst Hurenkinder aus
+
+\usepackage{lipsum}
+
+\begin{document}
+
+\input{./chapter/titelseite}
+
+\tableofcontents
+\setcounter{page}{1}
+\newpage
+
+\input{./chapter/abstract}
+\newpage
+\input{./chapter/einleitung}
+
+\newpage
+\include{./chapter/verzeichnisse}
+\include{./chapter/eid}
+
+\end{document}
