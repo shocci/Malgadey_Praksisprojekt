@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.14)  16 OCT 2025 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  16 OCT 2025 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,7 +742,7 @@ Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring OFF on input line 45.
- (chapter/titelseite.tex
+ (chapter/00_01_titelseite.tex
 <images/THlogoheader.pdf, id=6, 115.43124pt x 62.2325pt>
 File: images/THlogoheader.pdf Graphic file (type pdf)
 <use images/THlogoheader.pdf>
@@ -770,7 +770,7 @@ l.52 \newpage
               [1
 
 
-] (chapter/abstract.tex
+] (chapter/00_02_abstract.tex
 Overfull \hbox (0.51035pt too wide) in paragraph at lines 6--7
 \OT1/cmr/m/n/10.95 den ein Bam-bu Lab A1 Mi-ni so-wie erg[]anzend ein Pru-sa MK3 mit E3D-Revo-Upgradekit
  []
@@ -785,16 +785,16 @@ l.55 \newpage
               [2
 
 
-] (chapter/motivation.tex
+] (chapter/01_einleitung.tex
 chapter 1.
-) (chapter/zielsetzung.tex
+) (chapter/02_zielsetzung.tex
 
 [3
 
 
 ]
 chapter 2.
-) (chapter/forschungsfragen.tex
+) (chapter/03_forschungsfragen.tex
 Overfull \hbox (7.81866pt too wide) in paragraph at lines 10--1
 []\OT1/cmr/m/n/10.95 Langfristig soll das Pro-jekt da-mit die Grund-la-ge f[]ur ei-ne m[]ogliche \OT1/cmr/m/it/10.95 Software-Integration
  []
@@ -811,7 +811,7 @@ Overfull \hbox (9.32468pt too wide) in paragraph at lines 8--9
 []\OT1/cmr/m/n/10.95 Welche Un-ter-schie-de be-ste-hen zwi-schen \OT1/cmr/m/it/10.95 Brim-, Standard- \OT1/cmr/m/n/10.95 und \OT1/cmr/m/it/10.95 or-ga-ni-schen Support-
  []
 
-) (chapter/methodik.tex
+) (chapter/04_methodischesVorgehen.tex
 
 [5
 
@@ -823,13 +823,13 @@ chapter 4.
 [6
 
 
-]) (chapter/relevanz.tex
+]) (chapter/05_relevanz.tex
 
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported on input line 1.
 [7]
 chapter 5.
-) (chapter/zeitplan.tex
+) (chapter/06_zeitplan.tex
 
 [8
 
@@ -856,7 +856,7 @@ Underfull \hbox (badness 2042) in paragraph at lines 33--35
 \OT1/cmr/m/n/10.95 End-re-dak-ti-on und Er-stel-lung des Ab-schluss-do-ku-
  []
 
-) (chapter/ressourcen.tex
+) (chapter/07_ressourcen.tex
 
 [9
 
@@ -873,7 +873,7 @@ Overfull \hbox (12.28172pt too wide) in paragraph at lines 20--21
 [10
 
 
-]) (chapter/risiken.tex
+]) (chapter/08_risiken.tex
 Overfull \hbox (40.5703pt too wide) in paragraph at lines 50--1
 \OT1/cmr/m/n/10.95 ver-wen-det, um die Re-pro-du-zier-bar-keit und Nach-voll-zieh-bar-keit der Er-geb-nis-se zu gew[]ahrleisten.
  []
@@ -902,7 +902,7 @@ Overfull \hbox (9.97385pt too wide) in paragraph at lines 21--24
 [12
 
 
-]) (chapter/artefakte.tex
+]) (chapter/09_artefakte.tex
 Overfull \hbox (14.33469pt too wide) in paragraph at lines 46--1
 \OT1/cmr/m/n/10.95 Die ge-nann-ten Ri-si-ken und Gren-zen wer-den im Rah-men der Pro-jekt-pla-nung ber[]ucksichtigt
  []
@@ -994,7 +994,7 @@ L3 programming layer <2020/03/25>
  ) 
 Here is how much of TeX's memory you used:
  28581 strings out of 468081
- 563772 string characters out of 5425788
+ 564180 string characters out of 5425788
  1197382 words of memory out of 5000000
  56691 multiletter control sequences out of 15000+600000
  636250 words of font info for 69 fonts, out of 8000000 for 9000

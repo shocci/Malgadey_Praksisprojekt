@@ -15,9 +15,9 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: literatur.bib
 Warning--entry type for "Facfox2023" isn't style-file defined
---line 24 of file literatur.bib
+--line 47 of file literatur.bib
 Warning--entry type for "JLC3DP2023" isn't style-file defined
---line 33 of file literatur.bib
+--line 65 of file literatur.bib
 You've used 5 entries,
             4728 wiz_defined-function locations,
             928 strings with 7585 characters,
