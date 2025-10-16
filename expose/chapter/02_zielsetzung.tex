@@ -1,10 +1,14 @@
 \chapter{Zielsetzung}
 \label{cha:Zielsetzung}
 
-Ziel dieses Projekts ist es, den Einfluss von \textit{Brim-Support-Strukturen} auf die \textit{Detailgenauigkeit}, \textit{Maßhaltigkeit} und \textit{Oberflächenqualität} von FDM-gedruckten Objekten systematisch zu untersuchen. Dabei soll ermittelt werden, in welchem Umfang unterschiedliche Brim-Parameter (z.\,B. Linienanzahl, Breite, Material und Drucktemperatur) die Druckqualität bei detailreichen Objekten wie Miniaturen, Modellbauteilen oder mehrteiligen Skulpturen beeinflussen \cite{Kristiawan2021, FDMReview2021, FFFPolymerReview}.  
+Ziel des Projekts ist es, die Übertragbarkeit der im SLA-Druck verwendeten Support-Strukturprinzipien – \textit{Base}, \textit{Support Columns} und \textit{Contact Points} – auf das FDM-Verfahren systematisch zu untersuchen, insbesondere im Kontext detailreicher 3D-Modelle und Miniaturen.  
+Dabei soll analysiert werden:
 
-Ein weiterer Schwerpunkt liegt auf dem Vergleich zwischen Brim-Support-Strukturen und herkömmlichen \textit{Standard-} sowie \textit{organischen Support-Typen}. Ziel ist es, die jeweiligen Vor- und Nachteile hinsichtlich Haftung, Stabilität, Materialverbrauch und Nachbearbeitungsaufwand zu identifizieren \cite{Facfox2023, JLC3DP2023}.  
+\begin{itemize}
+  \item welche geometrischen und materialtechnischen Anpassungen notwendig sind, um SLA-ähnliche Strukturen im FDM-Druck zu realisieren,
+  \item wie sich diese Strukturen im Vergleich zu herkömmlichen FDM-Supports hinsichtlich Haftung, Stabilität, Nachbearbeitbarkeit und Druckqualität verhalten,
+  \item und ob sich daraus ein Workflow ableiten lässt, der diese Strukturen in FDM-Slicern nutzbar macht.
+\end{itemize}
 
-Auf Grundlage der experimentellen Ergebnisse soll ein \textit{strukturierter Workflow} entwickelt werden, der eine geordnete und reproduzierbare Vorgehensweise für den Einsatz von Brim-Support-Strukturen bietet. Dieser Workflow soll sowohl bei \textit{vorgesupporteten Modellen} als auch bei \textit{eigenständig supporteten Modellen} anwendbar sein und Anwenderinnen und Anwendern als Orientierung für die praktische Umsetzung dienen.  
-
-Langfristig soll das Projekt damit die Grundlage für eine mögliche \textit{Software-Integration} entsprechender Funktionen in Open-Source-Anwendungen wie \textit{Blender} oder \textit{OrcaSlicer} schaffen. Dadurch könnten Brim-Strukturen künftig automatisiert oder teilautomatisiert im Slicer-Workflow eingesetzt werden, um die Druckqualität bei Einsteiger- und Modellbauanwendungen gezielt zu verbessern.
+Langfristig soll auf Basis der Ergebnisse ein standardisierter Workflow entstehen, der für FDM-Nutzer:innen eine klare Vorgehensweise bietet, um optimierte Stützstrukturen zu entwerfen oder automatisiert zu generieren.  
+Darüber hinaus wird geprüft, inwiefern sich eine Implementierung in Open-Source-Slicer wie \textit{OrcaSlicer} oder Modellierungssoftware wie \textit{Blender} anbietet.

@@ -3,27 +3,17 @@
 \contentsline {chapter}{\numberline {2}Zielsetzung}{4}{chapter.2}%
 \contentsline {chapter}{\numberline {3}Forschungsfragen}{5}{chapter.3}%
 \contentsline {chapter}{\numberline {4}Methodisches Vorgehen}{6}{chapter.4}%
-\contentsline {subsection}{\numberline {4.0.1}Versuchsaufbau}{6}{subsection.4.0.1}%
-\contentsline {subsection}{\numberline {4.0.2}Versuchsparameter und Design}{6}{subsection.4.0.2}%
-\contentsline {subsection}{\numberline {4.0.3}Datenerhebung und Bewertung}{7}{subsection.4.0.3}%
-\contentsline {subsection}{\numberline {4.0.4}Auswertung und Dokumentation}{7}{subsection.4.0.4}%
-\contentsline {chapter}{\numberline {5}Relevanz und erwarteter Nutzen}{8}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Zeitplan}{9}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Ressourcen / Equipment}{10}{chapter.7}%
-\contentsline {subsection}{\numberline {7.0.1}Hardware}{10}{subsection.7.0.1}%
-\contentsline {subsection}{\numberline {7.0.2}Materialien}{10}{subsection.7.0.2}%
-\contentsline {subsection}{\numberline {7.0.3}Software}{10}{subsection.7.0.3}%
-\contentsline {subsection}{\numberline {7.0.4}Ressourcenplanung}{11}{subsection.7.0.4}%
-\contentsline {chapter}{\numberline {8}Risiken, Grenzen und ethische Aspekte}{12}{chapter.8}%
-\contentsline {subsection}{\numberline {8.0.1}Risiken und Grenzen}{12}{subsection.8.0.1}%
-\contentsline {subsection}{\numberline {8.0.2}Ethische Aspekte}{12}{subsection.8.0.2}%
-\contentsline {subsection}{\numberline {8.0.3}Zusammenfassung}{13}{subsection.8.0.3}%
-\contentsline {chapter}{\numberline {9}Erwartete Artefakte}{14}{chapter.9}%
-\contentsline {subsection}{\numberline {9.0.1}Physische Artefakte}{14}{subsection.9.0.1}%
-\contentsline {subsection}{\numberline {9.0.2}Digitale Artefakte}{14}{subsection.9.0.2}%
-\contentsline {subsection}{\numberline {9.0.3}Konzeptionelle und dokumentarische Artefakte}{14}{subsection.9.0.3}%
-\contentsline {subsection}{\numberline {9.0.4}Zusammenfassung}{15}{subsection.9.0.4}%
-\contentsline {chapter}{Abbildungsverzeichnis}{16}{chapter*.5}%
-\contentsline {chapter}{Tabellenverzeichnis}{17}{chapter*.6}%
-\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.7}%
+\contentsline {section}{\numberline {4.1}Versuchsaufbau}{6}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Untersuchungsparameter}{6}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Datenerhebung}{6}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Relevanz und erwarteter Nutzen}{7}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Zeitplan}{8}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Ressourcen / Equipment}{9}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Risiken, Grenzen}{10}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Erwartungen}{11}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Erwartete Artefakte}{11}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Erwartete Ergebnisse}{11}{section.9.2}%
+\contentsline {chapter}{Abbildungsverzeichnis}{12}{chapter*.5}%
+\contentsline {chapter}{Tabellenverzeichnis}{13}{chapter*.6}%
+\contentsline {chapter}{Literaturverzeichnis}{14}{chapter*.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

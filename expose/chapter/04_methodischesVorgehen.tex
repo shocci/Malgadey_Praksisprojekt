@@ -1,43 +1,25 @@
 \chapter{Methodisches Vorgehen}
 \label{cha:Methodisches Vorgehen}
 
-Das methodische Vorgehen orientiert sich an einem experimentellen Ansatz, bei dem der Einfluss verschiedener \textit{Brim-Support-Parameter} auf die Druckqualität systematisch untersucht wird. Der Fokus liegt dabei auf Faktoren, die für Einsteiger- und Modellbauanwendungen besonders relevant sind, wie etwa Linienanzahl, Breite, Materialtyp und Drucktemperatur \cite{Kristiawan2021, FFFPolymerReview}.  
+Das Projekt folgt einem experimentellen Ansatz, bei dem SLA-inspirierte Support-Strukturen für das FDM-Verfahren modelliert, gedruckt und mit bestehenden FDM-Supporttypen verglichen werden.  
 
-\subsection{Versuchsaufbau}
+\section{Versuchsaufbau}
 
-Die Druckversuche werden mit zwei unterschiedlichen FDM-Drucksystemen durchgeführt: einem \textit{Bambu Lab A1 Mini} und einem \textit{Prusa MK3} mit \textit{E3D Revo-Upgradekit}. Diese Geräte wurden ausgewählt, da sie repräsentativ für den Einsteiger- und Semi-Profi-Bereich stehen und eine gute Vergleichbarkeit zwischen unterschiedlichen Drucksystemen ermöglichen.  
+Für die Tests werden ein \textit{Bambu Lab A1 Mini} und ein \textit{Prusa MK3 mit E3D Revo-Upgradekit} verwendet.  
+Diese Systeme repräsentieren typische FDM-Drucker für Einsteiger- und Semi-Profi-Anwendungen.  
+Als Filamente werden PLA und PETG eingesetzt, da sie unterschiedliche Haftungs- und Schrumpfverhalten zeigen \cite{Kristiawan2021}.  
 
-Als Druckmaterialien kommen standardisierte Filamente wie \textit{PLA} und \textit{PETG} zum Einsatz, da diese typischerweise von Einsteigern verwendet werden und sich durch unterschiedliche Haftungs- und Schrumpfverhalten auszeichnen \cite{FDMReview2021}. Die Druckobjekte umfassen sowohl \textit{Miniaturen mit filigranen Details} als auch \textit{mehrteilige Modellbau- oder Skulpturenelemente}. Ergänzend werden \textit{Kalibrierobjekte} eingesetzt, um Maßhaltigkeit und Oberflächenqualität vergleichend zu bewerten.  
+\section{Untersuchungsparameter}
 
-\subsection{Versuchsparameter und Design}
-
-Die Untersuchung erfolgt auf Grundlage eines faktoriellen Versuchsplans, bei dem die wichtigsten Parameter systematisch variiert werden.  
-Zu den unabhängigen Variablen zählen:
 \begin{itemize}
-  \item Brim-Linienanzahl (z.\,B. 2, 4, 6, 8)
-  \item Brim-Breite (z.\,B. 2\,mm, 4\,mm, 8\,mm)
-  \item Materialtyp (PLA)
-  \item Druckbett- und Düsentemperatur (z.\,B. ±5 °C Variation)
-  \item Support-Typ (Brim, Standard, organisch)
+  \item Strukturvarianten: traditionelle FDM-Supports vs. SLA-inspirierte Supportformen (Base, Columns, Contact Points)  
+  \item Geometrieparameter: Säulendurchmesser, Säulenabstand, Kontaktpunktgröße, Basisdicke  
+  \item Prozessparameter: Druckbett- und Düsentemperatur, Schichthöhe, Druckgeschwindigkeit  
+  \item Evaluationskriterien: Haftung, Maßhaltigkeit, Oberflächenqualität, Nachbearbeitungsaufwand
 \end{itemize}
 
-Jede Parameterkombination wird mehrfach gedruckt, um reproduzierbare Ergebnisse zu gewährleisten. Für jede Druckserie werden Haftung, Maßhaltigkeit, Oberflächenqualität und Nachbearbeitungsaufwand dokumentiert.  
+\section{Datenerhebung}
 
-\subsection{Datenerhebung und Bewertung}
-
-Die Bewertung der Druckergebnisse erfolgt anhand quantitativer und qualitativer Kriterien.  
-Zu den quantitativen Messgrößen zählen:
-\begin{itemize}
-  \item Maßabweichungen in X-, Y- und Z-Richtung (Messschieber oder optische Vermessung)
-  \item Auftreten von Warping oder Ablösungen
-  \item Druckzeit und Materialverbrauch
-\end{itemize}
-
-Ergänzend wird eine qualitative Beurteilung vorgenommen, die visuelle Merkmale wie Kantenschärfe, Detailtreue und Oberflächenfehler berücksichtigt \cite{FFFPolymerReview}. Die Ergebnisse werden statistisch ausgewertet, um signifikante Unterschiede zwischen den Parametern zu identifizieren.  
-
-\subsection{Auswertung und Dokumentation}
-
-Die gesammelten Daten werden in tabellarischer Form erfasst und anschließend mit geeigneten Auswertungsverfahren (z.\,B. Varianzanalyse oder Mittelwertvergleich) untersucht.  
-Bilder und Mikroskopaufnahmen dienen der visuellen Dokumentation der Druckqualität. Auf Grundlage dieser Ergebnisse werden Handlungsempfehlungen formuliert und in einem Workflow zusammengeführt, der die Brim-Nutzung in unterschiedlichen Anwendungsszenarien beschreibt.  
-
-Der Workflow soll abschließend in seiner Anwendbarkeit evaluiert und hinsichtlich einer möglichen Integration in Open-Source-Slicer wie \textit{OrcaSlicer} oder Modellierungssoftware wie \textit{Blender} bewertet werden. Dadurch soll eine praxisnahe und reproduzierbare Vorgehensweise geschaffen werden, die Anwenderinnen und Anwender bei der effektiven Nutzung von Brim-Support-Strukturen unterstützt.
+Jede Strukturvariante wird mehrfach unter konstanten Bedingungen gedruckt.  
+Die Ergebnisse werden quantitativ (Messwerte, Warping, Abweichungen) und qualitativ (Bildanalyse, visuelle Bewertung der Oberflächen) erfasst.  
+Zur Auswertung werden statistische Verfahren eingesetzt, um signifikante Unterschiede zwischen den Strukturtypen zu bestimmen \cite{FFFPolymerReview}.

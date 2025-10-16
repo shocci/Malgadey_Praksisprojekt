@@ -1,12 +1,16 @@
 \chapter{Einleitung / Ausgangslage und Motivation}
 \label{cha:Einleitung / Ausgangslage und Motivation}
 
-Das \textit{Fused-Deposition-Modeling-Verfahren (FDM)} ist ein Verfahren der additiven Fertigung, bei dem ein thermoplastisches Filament schichtweise aufgetragen und verfestigt wird. Durch diesen Aufbauprozess lassen sich komplexe Geometrien vergleichsweise kostengünstig herstellen, was FDM insbesondere im Hobby-, Modellbau- und Einsteigerbereich beliebt macht \cite{Kristiawan2021, FDMReview2021}.  
+Support-Strukturen sind ein wesentlicher Bestandteil vieler 3D-Druckverfahren, da sie während des Druckprozesses Überhänge und freistehende Geometrien stabilisieren.  
+Im SLA-Verfahren bestehen Support-Strukturen typischerweise aus drei funktionalen Komponenten:\\
+einer \textit{Base} (Fußplatte), die an der Bauplattform haftet,\\
+\textit{Support Columns} (Stützsäulen), die das Modell tragen,\\
+und \textit{Contact Points} (Kontaktpunkte), die das Modell nur minimal berühren, um eine einfache Entfernung nach dem Druck zu ermöglichen \cite{FormlabsSupports}.  
 
-Eine zentrale Herausforderung des FDM-Drucks besteht in der Haftung zwischen der ersten Schicht und dem Druckbett. Unzureichende Haftung kann zu Verzug (Warping) oder zum Ablösen des Bauteils während des Druckvorgangs führen. Zur Verbesserung der Haftung wird häufig eine sogenannte \textit{Brim-Struktur} eingesetzt. Dabei handelt es sich um eine zusätzliche, flache Schicht aus ein bis mehreren Linien, die das Bauteil an der Basis umgibt und die Kontaktfläche zum Druckbett vergrößert \cite{Facfox2023}. Brims gelten als einfache Maßnahme zur Verbesserung der Druckstabilität und benötigen weniger Material als beispielsweise Raft-Strukturen \cite{JLC3DP2023}.  
+Diese dreiteilige Struktur bietet beim SLA-Druck eine gute Balance zwischen Stabilität, Materialeffizienz und leichter Nachbearbeitung.  
+Im Gegensatz dazu nutzt das FDM-Verfahren andere Supportstrategien, wie Raster- oder organische Supports, die primär auf dem Prinzip der Materialüberlagerung basieren \cite{JiangSupportReview, Kristiawan2021}.\\
+Bisher existieren jedoch kaum Untersuchungen dazu, inwieweit die aus SLA bekannten Strukturprinzipien (Base, Stützsäulen, Kontaktpunkte) auf FDM-Druckverfahren übertragbar sind.  
 
-Neben den Vorteilen der verbesserten Haftung können Brim-Strukturen jedoch auch Auswirkungen auf die Detailqualität und die Nachbearbeitung feiner Bauteile haben. Dies betrifft insbesondere mehrteilige 3D-Modelle, Miniaturen oder Skulpturen, bei denen hohe Präzision und saubere Kanten gefordert sind. Unterschiede im Material, in der Brim-Breite oder in der Linienanzahl können sichtbare Spuren hinterlassen oder die Maßhaltigkeit beeinflussen \cite{FFFPolymerReview}.  
-
-Die Motivation für dieses Projekt ergibt sich aus der eigenen praktischen Erfahrung im 3D-Druck von mehrteiligen Modellen, bei denen Brim-Strukturen regelmäßig eingesetzt werden, um die Haftung zu verbessern. Dabei zeigte sich, dass diese Strukturen sowohl positive als auch negative Auswirkungen auf das Druckergebnis haben können. Aus diesem Grund soll im Rahmen des Projekts systematisch untersucht werden, in welchem Umfang Brim-Support-Strukturen die Druckqualität und den Detailgrad von FDM-Drucken beeinflussen.  
-
-Darüber hinaus soll auf Grundlage der gewonnenen Erkenntnisse ein strukturierter Workflow entwickelt werden, der eine geordnete Vorgehensweise für den Einsatz von Brim-Support-Strukturen bietet. Dieser Workflow soll sowohl bei vorgesupporteten Modellen als auch bei eigenständig supporteten Modellen anwendbar sein. Langfristig wird angestrebt, diesen Ansatz als Grundlage für eine Integration in Open-Source-Software wie \textit{Blender} oder \textit{OrcaSlicer} zu nutzen, um Brim-Strukturen systematischer und nachvollziehbarer einsetzen zu können.
+Die persönliche Motivation für dieses Projekt ergibt sich aus der praktischen Arbeit mit dem FDM-Druck detailreicher Modelle – etwa Miniaturen, Figuren oder kleinformatiger Skulpturen.  
+Hier treten regelmäßig Probleme auf, die in SLA-Drucksystemen durch optimierte Support-Geometrien bereits reduziert werden konnten.  
+Aus dieser Beobachtung entstand die Forschungsfrage, ob die Prinzipien der SLA-Support-Strukturen auch im FDM-Druck nutzbar sind und welche Anpassungen dafür erforderlich wären.  

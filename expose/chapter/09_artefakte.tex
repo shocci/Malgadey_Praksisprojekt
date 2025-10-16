@@ -1,50 +1,17 @@
-\chapter{Erwartete Artefakte}
-\label{cha:Erwartete Artefakte}
+\chapter{Erwartungen}
+\label{cha:Erwartungen}
 
-Im Verlauf des Projekts werden verschiedene Artefakte entstehen, die sowohl die experimentellen Ergebnisse als auch die entwickelten Arbeitsabläufe dokumentieren.  
-Diese Artefakte lassen sich in drei Hauptkategorien unterteilen: physische Druckergebnisse, digitale Datensätze und dokumentarische bzw. konzeptionelle Ergebnisse.
-
-\subsection{Physische Artefakte}
-
+\section{Erwartete Artefakte}
 \begin{itemize}
-  \item \textbf{Testdrucke und Vergleichsobjekte:} 
-  Eine Reihe von Miniaturen, Modellteilen und Kalibrierobjekten, die mit unterschiedlichen Brim- und Support-Einstellungen gedruckt wurden.  
-  Diese Drucke dienen als Grundlage für die Bewertung von Haftung, Maßhaltigkeit und Detailqualität.
-  
-  \item \textbf{Referenzmodelle:} 
-  Ausgewählte Druckobjekte, die die jeweils besten und schlechtesten Parameterkombinationen darstellen, werden als Referenzbeispiele archiviert.  
-  Sie können zur visuellen Demonstration der Ergebnisse oder für Folgestudien herangezogen werden.
+  \item \textbf{Physische Artefakte:} Testdrucke mit verschiedenen Support-Geometrien (FDM vs. SLA-inspiriert).  
+  \item \textbf{Datensätze:} Tabellen mit Messwerten zu Maßhaltigkeit, Haftung, Oberflächenbeschaffenheit.  
+  \item \textbf{Analyse-Skripte:} Python-Auswertungen zur grafischen Darstellung von Qualitätsmetriken.  
+  \item \textbf{Workflow-Dokumentation:} Schritt-für-Schritt-Anleitung zur Umsetzung SLA-inspirierter Supports im FDM-Druck.  
+  \item \textbf{Optimiertes Slicer-Profil:} Beispielhafte OrcaSlicer-Konfiguration mit den besten getesteten Parametern.
 \end{itemize}
 
-\subsection{Digitale Artefakte}
-
-\begin{itemize}
-  \item \textbf{Datensätze und Messprotokolle:} 
-  Tabellarische Aufzeichnungen der Messwerte (z.\,B. Maßabweichungen, Materialverbrauch, Haftungsergebnisse) sowie begleitende Bilddokumentationen der Druckoberflächen.  
-  Diese Daten werden in strukturierter Form gespeichert und dienen als Grundlage für statistische Auswertungen und Reproduzierbarkeit.
-  
-  \item \textbf{Analyse- und Auswertungsskripte:} 
-  Python-basierte Auswertungsdateien (\textit{pandas}, \textit{matplotlib}) zur automatisierten Berechnung und Visualisierung von Kennwerten.  
-  Diese Skripte ermöglichen eine spätere Wiederverwendung oder Erweiterung im Rahmen weiterer Untersuchungen.
-\end{itemize}
-
-\subsection{Konzeptionelle und dokumentarische Artefakte}
-
-\begin{itemize}
-  \item \textbf{Workflow-Dokumentation:} 
-  Eine schriftliche und grafische Darstellung des entwickelten Workflows, die den gesamten Ablauf von der Vorbereitung über den Druck bis zur Nachbearbeitung beschreibt.  
-  Diese Dokumentation bildet die zentrale Ergebnisdarstellung des Projekts.
-  
-  \item \textbf{Optimiertes Slicer-Profil:} 
-  Ein konfiguriertes \textit{OrcaSlicer}-Profil mit optimierten Brim-Parametern (z.\,B. Linienanzahl, Breite, Temperatur).  
-  Das Profil soll als reproduzierbare Grundlage für Einsteiger dienen und kann als Beispiel für eine mögliche Software-Integration genutzt werden.
-  
-  \item \textbf{Abschlussbericht:} 
-  Eine zusammenfassende Projektarbeit mit Dokumentation der Vorgehensweise, Ergebnisse, Auswertungen und Schlussfolgerungen.  
-  Der Bericht dient zugleich als Grundlage für eine spätere Veröffentlichung oder Erweiterung des Projekts.
-\end{itemize}
-
-\subsection{Zusammenfassung}
-
-Die erwarteten Artefakte ermöglichen eine umfassende Bewertung der Brim-Support-Strukturen sowohl auf praktischer als auch auf analytischer Ebene.  
-Sie schaffen damit eine Grundlage für die Übertragbarkeit der Ergebnisse auf zukünftige Anwendungen und potenzielle Software-Integrationen im Bereich der additiven Fertigung.
+\section{Erwartete Ergebnisse}
+Es wird erwartet, dass die Übertragung von SLA-Support-Strukturprinzipien auf den FDM-Druck praktikabel ist, sofern geometrische Anpassungen vorgenommen werden.  
+Insbesondere kleinere Kontaktpunkte und dünnere Stützsäulen könnten zu einer verbesserten Oberflächenqualität und leichteren Entfernung führen.  
+Gleichzeitig ist anzunehmen, dass zu filigrane Strukturen im FDM aufgrund des schichtweisen Materialauftrags an Stabilität verlieren.  
+Das Projekt soll somit einen Beitrag zur Optimierung von Support-Strukturen im FDM leisten und eine Grundlage für zukünftige Slicer-Integrationen schaffen.
