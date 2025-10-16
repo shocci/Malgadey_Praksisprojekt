@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.14)  14 OCT 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.14)  16 OCT 2025 17:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -770,7 +770,12 @@ l.52 \newpage
               [1
 
 
-] (chapter/abstract.tex)
+] (chapter/abstract.tex
+Overfull \hbox (0.51035pt too wide) in paragraph at lines 6--7
+\OT1/cmr/m/n/10.95 den ein Bam-bu Lab A1 Mi-ni so-wie erg[]anzend ein Pru-sa MK3 mit E3D-Revo-Upgradekit
+ []
+
+)
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
@@ -790,8 +795,8 @@ chapter 1.
 ]
 chapter 2.
 ) (chapter/forschungsfragen.tex
-Overfull \hbox (9.3008pt too wide) in paragraph at lines 4--1
-\OT1/cmr/m/n/10.95 Ziel des Pro-jekts ist die ex-pe-ri-men-tel-le Un-ter-su-chung und Op-ti-mie-rung von Brimsupport-
+Overfull \hbox (7.81866pt too wide) in paragraph at lines 10--1
+[]\OT1/cmr/m/n/10.95 Langfristig soll das Pro-jekt da-mit die Grund-la-ge f[]ur ei-ne m[]ogliche \OT1/cmr/m/it/10.95 Software-Integration
  []
 
 
@@ -802,8 +807,8 @@ Overfull \hbox (9.3008pt too wide) in paragraph at lines 4--1
 ]
 chapter 3.
 
-Overfull \hbox (15.74911pt too wide) in paragraph at lines 6--7
-[]\OT1/cmr/m/n/10.95 Welche Rol-le spielt die Druckbett-Temperatur in Kom-bi-na-ti-on mit Brim-Parametern
+Overfull \hbox (9.32468pt too wide) in paragraph at lines 8--9
+[]\OT1/cmr/m/n/10.95 Welche Un-ter-schie-de be-ste-hen zwi-schen \OT1/cmr/m/it/10.95 Brim-, Standard- \OT1/cmr/m/n/10.95 und \OT1/cmr/m/it/10.95 or-ga-ni-schen Support-
  []
 
 ) (chapter/methodik.tex
@@ -814,61 +819,126 @@ Overfull \hbox (15.74911pt too wide) in paragraph at lines 6--7
 ]
 chapter 4.
 
-Overfull \hbox (10.14093pt too wide) in paragraph at lines 5--6
-\OT1/cmr/m/n/10.95 FDM-Prozess, Haft-me-cha-nis-men (Adh[]asion, Rei-bung), Ma-te-ri-al-ver-hal-ten (PLA, PETG),
- []
-
-) (chapter/relevanz.tex
 
 [6
 
 
-]
+]) (chapter/relevanz.tex
+
+Package babel Info: 'ngerman' activates 'ngerman' shorthands.
+(babel)             Reported on input line 1.
+[7]
 chapter 5.
 ) (chapter/zeitplan.tex
-
-[7
-
-
-]
-chapter 6.
-
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
-[]|\OT1/cmr/m/n/10.95 Druckreihen, Do-ku-men-ta-ti-on, Qua-
- []
-
-) (chapter/ressourcen.tex
 
 [8
 
 
 ]
-chapter 7.
-) (chapter/risiken.tex
-Overfull \hbox (23.82713pt too wide) in paragraph at lines 4--1
-\OT1/cmr/m/n/10.95 Einsteiger-FDM-Drucker, Fi-la-ment (PLA/PETG), Mess-mit-tel (Mess-schie-ber, K[]uchenwaage
+chapter 6.
+
+Underfull \hbox (badness 1394) in paragraph at lines 13--14
+[]|\OT1/cmr/m/n/10.95 Literaturrecherche zu FDM, Brim- und Support-
  []
 
 
+Underfull \hbox (badness 1910) in paragraph at lines 29--30
+[]|\OT1/cmr/m/n/10.95 Entwicklung und Do-ku-men-ta-ti-on des struk-tu-rier-
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 29--30
+\OT1/cmr/m/n/10.95 lun-gen und Be-wer-tung ei-ner m[]oglichen Software-
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 33--35
+\OT1/cmr/m/n/10.95 End-re-dak-ti-on und Er-stel-lung des Ab-schluss-do-ku-
+ []
+
+) (chapter/ressourcen.tex
 
 [9
 
 
 ]
-chapter 8.
-) (chapter/artefakte.tex
+chapter 7.
+
+Overfull \hbox (12.28172pt too wide) in paragraph at lines 20--21
+[]\OT1/cmr/m/n/10.95 Dokumentationskamera oder Mi-kro-sko-pauf-satz f[]ur De-tai-lauf-nah-men der Ober-
+ []
+
+
 
 [10
 
 
-]
+]) (chapter/risiken.tex
+Overfull \hbox (40.5703pt too wide) in paragraph at lines 50--1
+\OT1/cmr/m/n/10.95 ver-wen-det, um die Re-pro-du-zier-bar-keit und Nach-voll-zieh-bar-keit der Er-geb-nis-se zu gew[]ahrleisten.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--1
+
+ []
+
+
+
+[11]
+chapter 8.
+
+Overfull \hbox (0.73509pt too wide) in paragraph at lines 13--16
+[]\OT1/cmr/bx/n/10.95 Methodische Gren-zen: \OT1/cmr/m/n/10.95 Die Un-ter-su-chung be-schr[]ankt sich auf ei-ne aus-gew[]ahlte
+ []
+
+
+Overfull \hbox (9.97385pt too wide) in paragraph at lines 21--24
+[]\OT1/cmr/bx/n/10.95 Subjektive Be-ur-tei-lung: \OT1/cmr/m/n/10.95 Qua-li-ta-ti-ve Be-wer-tun-gen, et-wa der Ober-fl[]achenqualit[]at
+ []
+
+
+
+[12
+
+
+]) (chapter/artefakte.tex
+Overfull \hbox (14.33469pt too wide) in paragraph at lines 46--1
+\OT1/cmr/m/n/10.95 Die ge-nann-ten Ri-si-ken und Gren-zen wer-den im Rah-men der Pro-jekt-pla-nung ber[]ucksichtigt
+ []
+
+
+Overfull \hbox (3.33235pt too wide) in paragraph at lines 46--1
+\OT1/cmr/m/n/10.95 stan-dar-di-sier-te Do-ku-men-ta-ti-on) re-du-ziert. Ethi-sche Grunds[]atze wie Trans-pa-renz, Nach-
+ []
+
+
+
+[13]
 chapter 9.
-)
 
-[11
+Overfull \hbox (5.43913pt too wide) in paragraph at lines 10--13
+\OT1/cmr/m/n/10.95 und Ka-li-brier-ob-jek-ten, die mit un-ter-schied-li-chen Brim- und Support-Einstellungen
+ []
 
 
-]
+Overfull \hbox (4.64352pt too wide) in paragraph at lines 14--17
+[]\OT1/cmr/bx/n/10.95 Referenzmodelle: \OT1/cmr/m/n/10.95 Aus-gew[]ahlte Druckob-jek-te, die die je-weils bes-ten und schlech-
+ []
+
+
+Overfull \hbox (9.27243pt too wide) in paragraph at lines 26--29
+[]\OT1/cmr/bx/n/10.95 Analyse- und Aus-wer-tungs-skrip-te: \OT1/cmr/m/n/10.95 Python-basierte Aus-wer-tungs-da-tei-en (\OT1/cmr/m/it/10.95 pan-
+ []
+
+
+
+[14
+
+
+])
+
+[15]
 \openout2 = `./chapter/verzeichnisse.aux'.
 
  (chapter/verzeichnisse.tex (main.lof)
@@ -877,7 +947,7 @@ chapter 9.
 
 
 
-[12
+[16
 
 
 
@@ -887,16 +957,22 @@ chapter 9.
 
 
 
-[13
+[17
 
 
 ] (main.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+[]\OT1/cmr/m/n/10.95 [JLC3DP 2023] \OT1/cmr/m/sc/10.95 JLC3DP\OT1/cmr/m/n/10.95 :  \OT1/cmr/m/it/10.95 3D Prin-ting Brims, Skirts, and
+ []
 
-Package natbib Warning: Empty `thebibliography' environment on input line 15.
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--50
+\OT1/cmr/m/it/10.95 Rafts: How to Use Them\OT1/cmr/m/n/10.95 .  []$\OT1/cmtt/m/n/10.95 https : / / jlc3dp . com / blog /
+ []
 
 )
 
-[14
+[18
 
 
 ])
@@ -904,7 +980,7 @@ Package natbib Warning: Empty `thebibliography' environment on input line 15.
 
  (chapter/eid.tex)
 
-[15
+[19
 
 
 
@@ -917,17 +993,17 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 28519 strings out of 468081
- 562734 string characters out of 5425788
- 1194382 words of memory out of 5000000
- 56652 multiletter control sequences out of 15000+600000
- 635596 words of font info for 67 fonts, out of 8000000 for 9000
+ 28581 strings out of 468081
+ 563772 string characters out of 5425788
+ 1197382 words of memory out of 5000000
+ 56691 multiletter control sequences out of 15000+600000
+ 636250 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,10n,117p,11275b,532s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\ninom\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (17 pages, 167519 bytes).
+ 108i,12n,117p,11275b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\ninom\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ninom/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (21 pages, 257019 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 500000)
- 154 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 

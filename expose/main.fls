@@ -345,6 +345,7 @@ INPUT .\chapter\motivation.tex
 INPUT .\chapter\motivation.tex
 INPUT .\chapter\motivation.tex
 INPUT chapter\motivation.tex
+INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\chapter\zielsetzung.tex
 INPUT .\chapter\zielsetzung.tex
 INPUT .\chapter\zielsetzung.tex
@@ -362,18 +363,18 @@ INPUT .\chapter\methodik.tex
 INPUT chapter\methodik.tex
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmssbx10.tfm
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1095.tfm
-INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\chapter\relevanz.tex
 INPUT .\chapter\relevanz.tex
 INPUT .\chapter\relevanz.tex
 INPUT .\chapter\relevanz.tex
 INPUT chapter\relevanz.tex
+INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsl10.tfm
 INPUT .\chapter\zeitplan.tex
 INPUT .\chapter\zeitplan.tex
 INPUT .\chapter\zeitplan.tex
 INPUT .\chapter\zeitplan.tex
 INPUT chapter\zeitplan.tex
+INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 INPUT .\chapter\ressourcen.tex
 INPUT .\chapter\ressourcen.tex
 INPUT .\chapter\ressourcen.tex
@@ -389,7 +390,6 @@ INPUT .\chapter\artefakte.tex
 INPUT .\chapter\artefakte.tex
 INPUT .\chapter\artefakte.tex
 INPUT chapter\artefakte.tex
-INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\chapter\verzeichnisse.tex
 INPUT .\chapter\verzeichnisse.tex
 OUTPUT .\chapter\verzeichnisse.aux
@@ -407,6 +407,8 @@ OUTPUT main.lot
 INPUT .\main.bbl
 INPUT .\main.bbl
 INPUT main.bbl
+INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
+INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\chapter\eid.tex
 INPUT .\chapter\eid.tex
 OUTPUT .\chapter\eid.aux
@@ -434,6 +436,8 @@ INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl10.pfb
+INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsl10.pfb
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmssbx10.pfb
 INPUT C:\Users\ninom\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb

@@ -1,10 +1,12 @@
-\chapter{Ausgangslage und Motivation}
-\label{cha:Ausgangslage und Motivation}
+\chapter{Einleitung / Ausgangslage und Motivation}
+\label{cha:Einleitung / Ausgangslage und Motivation}
 
-Der 3D-Druck mittels Fused Deposition Modeling (FDM) hat sich als zugängliche und kostengünstige Fertigungsmethode etabliert – insbesondere im Bereich des Modellbaus und bei Einsteigern in die additive Fertigung.
-Ein häufiges Problem besteht jedoch in unzureichender Haftung zwischen Bauteil und Druckbett, was zu Verzug, Ablösung oder Druckfehlern führt.
+Das \textit{Fused-Deposition-Modeling-Verfahren (FDM)} ist ein Verfahren der additiven Fertigung, bei dem ein thermoplastisches Filament schichtweise aufgetragen und verfestigt wird. Durch diesen Aufbauprozess lassen sich komplexe Geometrien vergleichsweise kostengünstig herstellen, was FDM insbesondere im Hobby-, Modellbau- und Einsteigerbereich beliebt macht \cite{Kristiawan2021, FDMReview2021}.  
 
-Brimsupport-Strukturen – flache, umlaufende Materialränder – dienen der Verbesserung der Haftung und Stabilität während des Druckprozesses.
-Trotz ihrer Relevanz gibt es kaum systematische Untersuchungen, wie sich verschiedene Brim-Parameter (z. B. Linienanzahl, Breite, Abstand) auf die Druckqualität auswirken – insbesondere auf Einsteiger-Druckern mit begrenzter Präzision.
+Eine zentrale Herausforderung des FDM-Drucks besteht in der Haftung zwischen der ersten Schicht und dem Druckbett. Unzureichende Haftung kann zu Verzug (Warping) oder zum Ablösen des Bauteils während des Druckvorgangs führen. Zur Verbesserung der Haftung wird häufig eine sogenannte \textit{Brim-Struktur} eingesetzt. Dabei handelt es sich um eine zusätzliche, flache Schicht aus ein bis mehreren Linien, die das Bauteil an der Basis umgibt und die Kontaktfläche zum Druckbett vergrößert \cite{Facfox2023}. Brims gelten als einfache Maßnahme zur Verbesserung der Druckstabilität und benötigen weniger Material als beispielsweise Raft-Strukturen \cite{JLC3DP2023}.  
 
-Das Projekt zielt darauf ab, diese Parameter technisch zu analysieren, zu vergleichen und Empfehlungen für Einsteiger zu entwickeln.
+Neben den Vorteilen der verbesserten Haftung können Brim-Strukturen jedoch auch Auswirkungen auf die Detailqualität und die Nachbearbeitung feiner Bauteile haben. Dies betrifft insbesondere mehrteilige 3D-Modelle, Miniaturen oder Skulpturen, bei denen hohe Präzision und saubere Kanten gefordert sind. Unterschiede im Material, in der Brim-Breite oder in der Linienanzahl können sichtbare Spuren hinterlassen oder die Maßhaltigkeit beeinflussen \cite{FFFPolymerReview}.  
+
+Die Motivation für dieses Projekt ergibt sich aus der eigenen praktischen Erfahrung im 3D-Druck von mehrteiligen Modellen, bei denen Brim-Strukturen regelmäßig eingesetzt werden, um die Haftung zu verbessern. Dabei zeigte sich, dass diese Strukturen sowohl positive als auch negative Auswirkungen auf das Druckergebnis haben können. Aus diesem Grund soll im Rahmen des Projekts systematisch untersucht werden, in welchem Umfang Brim-Support-Strukturen die Druckqualität und den Detailgrad von FDM-Drucken beeinflussen.  
+
+Darüber hinaus soll auf Grundlage der gewonnenen Erkenntnisse ein strukturierter Workflow entwickelt werden, der eine geordnete Vorgehensweise für den Einsatz von Brim-Support-Strukturen bietet. Dieser Workflow soll sowohl bei vorgesupporteten Modellen als auch bei eigenständig supporteten Modellen anwendbar sein. Langfristig wird angestrebt, diesen Ansatz als Grundlage für eine Integration in Open-Source-Software wie \textit{Blender} oder \textit{OrcaSlicer} zu nutzen, um Brim-Strukturen systematischer und nachvollziehbarer einsetzen zu können.
